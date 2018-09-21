@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="LoggedMaster.master.cs" Inherits="PSC.View.LoggedMaster" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <!--<link href="../CSS/HomePageMaster.css" rel="stylesheet" />-->
+    <link href="../CSS/cssTest.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <nav>
+                <ul class="ulClase">
+                    <asp:ContentPlaceHolder  runat="server" ID="headerMenu"></asp:ContentPlaceHolder>
+                    <li style="float: right" class="liClase">
+                        <a href="#" class="aClase"><asp:Label ID="sesionAs" runat="server" Text=" " /></a>
+                    </li> 
+                </ul>
+            </nav>
+            <br />
+        </div>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <div class="container body-content">
+        <hr />
+        <footer>
+            <p><a href="http://www.ateb.mx/">ATEB Servicios - Página oficial</a></p>
+        </footer>
+    </div>
+    <script type="text/javascript">
+
+      function DisableBackButton() {
+       window.history.forward()
+      }
+      DisableBackButton();
+       window.onload = DisableBackButton;
+       window.onpageshow = function(evt) { if (evt.persisted) DisableBackButton() }
+        window.onunload = function() { void (0) }
+     </script>
+    <script type="text/javascript" src="../../Scripts/jquery-1.3.2.min.js" lang="javascript"></script>
+    <script type="text/javascript" src="../../Scripts/jquery-ui-1.7.1.custom.min.js" ></script>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js" ></script>
+</body>
+</html>

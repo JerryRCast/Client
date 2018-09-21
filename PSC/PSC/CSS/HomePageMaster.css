@@ -1,0 +1,139 @@
+﻿.ulClase{
+    list-style-type: none;
+    margin: -11px;
+    padding:6px;
+    overflow: hidden;
+    background-color: #111;
+}
+.liClase{
+    float: left;
+}
+
+.aClase{
+    font-family:Arial;
+    display: block;
+    color: #818181;
+    text-align:justify;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.aClase:hover{
+    background-color: #2a2525;
+    color: white;
+    text-decoration: none;
+    height: 20px;
+    padding: 8px 15px;
+}
+
+footer{
+    padding: 0;
+    background-color:#b9f1b5;
+}
+
+
+.divLoginHome{
+    font-family: Arial;
+    font-size: 18px;
+    position: center;
+    text-align:center;
+    margin: auto;
+    min-width: 200px;
+    max-width:450px;
+    background-color: rgba(151, 151, 151, 0.24);
+}
+
+ .textBoxLogin{
+     font-size: 15px;
+     width: 260px;
+     height:45px;
+     text-align:center;
+     border: 2px solid #c6bfbf;
+     color:#5b4d4d;
+ }
+
+ .textBoxLogin:focus{
+     border: 2px solid #9a8e8e;
+ }
+
+ .btnLogin{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    width: 260px;
+    height: 45px;
+    background-color: #80a7be;/*Blue color*/
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.btnLogin:hover{
+    background-color: #508dc7;/*Blue color*/
+    color:white;
+}
+
+footer{
+    padding: 0;
+    background-color:#b9f1b5;
+}
+
+.table{
+    margin: auto;
+    min-width: 730px;
+    max-width:100%;
+}
+
+.divTable{
+    /*text-align: center;*/
+    max-width: 100%;
+    min-width:730px;
+}
+
+.labelLogin{
+    font-size: 13px;
+    color:#ce2626;
+}
+
+.btnPag1{
+    margin: 5px 10px 0px 10px;
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    width: 260px;
+    height: 45px;
+    background-color: #80a7be;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.btnPag1:hover{
+    background-color: #508dc7;
+    color:white;
+}
+
+.divLabelFiles{
+    height: 80px;
+    position: center;
+    text-align:center;
+    margin: auto;
+    min-width: 200px;
+    max-width:450px;
+    background-color: rgba(151, 151, 151, 0.24);
+}
+
+.labelFiles{ 
+    text-align: center;
+    font-family: Arial;
+    font-size: 27px;
+    color: #484646;
+}
